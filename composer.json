@@ -1,6 +1,8 @@
 {
   "name": "phpcanvas/phpcanvas",
   "description": "The goal of Canvas is to give php developers a easy to learn framework that will make web application development fast and easy.",
+  "version": "0.1.0",
+  "type": "project",
   "require": {
     "php": ">=5.6"
   }
