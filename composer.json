@@ -6,12 +6,13 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.0",
-    "composer/installers": "~1.0",
+    "oomphinc/composer-installers-extender": "~1.0",
     "phpcanvas/phpcanvas-core": "^0.1"
   },
   "extra": {
+    "installer-types": ["phpcanvas-library"],
     "installer-paths": {
-      "libs/{$nme}": ["vendor:phpcanvas"]
+      "libs/{$nme}": ["type:phpcanvas-library"]
     }
   },
   "config": {
