@@ -15,5 +15,13 @@
         "phpcanvas/phpcanvas-core"
       ]
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    },
+    "installer-paths": {
+      "libs/{$phpcanvas-library}": ["type:phpcanvas-library"]
+    }
   }
 }
