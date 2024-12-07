@@ -6,12 +6,12 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.0",
-    "composer/installers": "^1.0",
+    "composer/installers": "~1.0",
     "phpcanvas/phpcanvas-core": "^0.1"
   },
   "extra": {
     "installer-paths": {
-      "libs/{$phpcanvas-library}": ["type:phpcanvas-library"]
+      "libs/{$phpcanvas-library}": ["vendor:phpcanvas"]
     }
   },
   "config": {
