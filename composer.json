@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "type": "project",
   "minimum-stability": "dev",
-  "prefer-stable: true,
+  "prefer-stable": true,
   "require": {
     "php": ">=7.0",
     "phpcanvas/phpcanvas-core": "^1.0",
