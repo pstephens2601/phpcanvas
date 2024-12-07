@@ -6,6 +6,13 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "phpcanvas/core": "^1.0",
+    "composer/installers": "^1.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "lib/": ["phpcanvas/core"]
+    }
   }
 }

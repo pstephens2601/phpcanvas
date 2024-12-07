@@ -1,0 +1,6 @@
+.idea/*.xml
+.idea/*.iml
+.idea/
+
+libs/*/
+!libs/

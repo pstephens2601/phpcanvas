@@ -4,7 +4,7 @@
 	ob_start();
 	
 	//includes the loader file that includes the load_files() function
-	require_once('lib/loader.php');
+	require_once('libs/loader.php');
 
 	// Loads the needed files
 	load_files();
