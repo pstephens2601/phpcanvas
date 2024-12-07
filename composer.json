@@ -6,7 +6,7 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.0",
-    "oomphinc/composer-installers-extender": "~1.0",
+    "oomphinc/composer-installers-extender": "*",
     "phpcanvas/phpcanvas-core": "^0.1"
   },
   "extra": {
