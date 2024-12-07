@@ -1,0 +1,1 @@
+This is the directory where all of your PHPCanvas libraries will be stored.
