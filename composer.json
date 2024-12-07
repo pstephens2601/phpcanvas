@@ -11,17 +11,12 @@
   },
   "extra": {
     "installer-paths": {
-      "libs/": [
-        "phpcanvas/phpcanvas-core"
-      ]
+      "libs/{$phpcanvas-library}": ["type:phpcanvas-library"]
     }
   },
   "config": {
     "allow-plugins": {
       "composer/installers": true
-    },
-    "installer-paths": {
-      "libs/{$phpcanvas-library}": ["type:phpcanvas-library"]
     }
   }
 }
