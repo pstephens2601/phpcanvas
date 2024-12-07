@@ -11,7 +11,7 @@
   },
   "extra": {
     "installer-paths": {
-      "libs/{$phpcanvas-library}": ["vendor:phpcanvas"]
+      "libs/{$nme}": ["vendor:phpcanvas"]
     }
   },
   "config": {
