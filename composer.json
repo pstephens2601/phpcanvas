@@ -12,7 +12,7 @@
   },
   "extra": {
     "installer-paths": {
-      "lib/": ["phpcanvas/core"]
+      "libs/": ["phpcanvas/core"]
     }
   }
 }

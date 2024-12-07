@@ -4,7 +4,7 @@
 	ob_start();
 	
 	//includes the loader file that includes the load_files() function
-	require_once('libs/loader.php');
+	require_once('libs/phpcanvas-core/loader.php');
 
 	// Loads the needed files
 	load_files();
