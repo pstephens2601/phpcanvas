@@ -12,7 +12,7 @@
   "extra": {
     "installer-types": ["phpcanvas-library"],
     "installer-paths": {
-      "libs/{$nme}": ["type:phpcanvas-library"]
+      "libs/{$name}": ["type:phpcanvas-library"]
     }
   },
   "config": {
