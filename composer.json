@@ -1,18 +1,18 @@
 {
   "name": "phpcanvas/phpcanvas",
   "description": "The goal of Canvas is to give php developers a easy to learn framework that will make web application development fast and easy.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "project",
   "minimum-stability": "dev",
-  "prefer-stable": true,
+  "prefer-stable: true,
   "require": {
     "php": ">=7.0",
-    "phpcanvas/core": "^1.0",
+    "phpcanvas/phpcanvas-core": "^1.0",
     "composer/installers": "^1.0"
   },
   "extra": {
     "installer-paths": {
-      "libs/": ["phpcanvas/core"]
+      "libs/": ["phpcanvas/phpcanvas-core"]
     }
   }
 }
